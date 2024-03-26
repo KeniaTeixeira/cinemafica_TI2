@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemafica</title>
+    <meta name="title" content="Cinemafica">
+    <meta name="descrição" content="Cinemafica site de resenhas de filmes">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--CSS e JS-->
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="../javaScript/global.js" defer></script>
+    <script src="../javaScript/index.js" type="module"></script>
+</head>
+
+<style>
+    .sobreText{
+        padding: 70px;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <a href="../index.html" class="logo">
+            <img src="../img/CINEMAFICA.png" width="140" height="32" alt="cinemafica">
+        </a>
+
+        <div class="search-box" search-box>
+            <div class="search-wrapper" search-wrapper>
+                <input type="text" name="search" aria-label="search movies" placeholder="Pesquisar..."
+                class="search-field" autocomplete="off" search-field>
+
+                <img src="../img/search.png" width="24" height="24" alt="search" class="leading-icon">
+            </div>
+
+        <button class="search-btn" search-toggler>
+            <img src="../img/close.png" width ="24" height="24" alt="close search box">
+        </button>
+        </div>
+        
+
+        <button class="search-btn" search-toggler menu-close>
+            <img src="../img/search.png" width="24" height="24" alt="open search box">
+        </button>
+
+        <button class="menu-btn" menu-btn menu-toggler>
+            <img src="../img/menu.png" width="24" height="24" alt="open menu" class="menu">
+            <img src="../img/menu-close.png" width="24" height="24" alt="close menu" class="close">
+        </button>
+    </header>
+
+    <div class="sobreText">
+    <p>O Cinemafica nasceu durante a disciplina de Trabalho Interdisciplinar II: Backend do curso de Ciência da Computação na PUC Minas. Ana, Kênia, Letícia e Manoella perceberam a demora que os usuários enfrentam ao escolher filmes e séries em plataformas de streaming. Assim, a ideia principal do site foi concebida.</p>
+    <p>Dessa forma, Cinemafica aborda o problema comum de passar tempo excessivo procurando por filmes e séries para assistir nas plataformas de streaming. Com a grande quantidade de conteúdo disponível, usuários comumente se esforçam para encontrar opções que se alinham com suas preferências. A plataforma resolve esse problema oferecendo recomendações personalizadas baseadas nos gêneros preferidos do usuário, agilizando o processo de tomada de decisão e aprimorando sua experiência cinematográfica.<p>
+    <p>O projeto é voltado para entusiastas de filmes e séries de todas as idades que acham difícil escolher conteúdo com a quantidade gigantesca de opções disponíveis. Isso também inclui indivíduos que se interessam por múltiplos gêneros e querem descobrir novos filmes e séries que combinam com seus gostos.</p>
+    <p>O objetivo principal do projeto é a criação de uma plataforma user-friendly que oferece recomendações personalizadas de filmes e séries. A plataforma deverá permitir que os usuários criem perfis, especifiquem seus gêneros de preferência, visualizem sugestões  selecionadas e acessem resenhas e avaliações. Ademais, o projeto mira na aprimoração da experiência geral de visualização, ajudando os usuários a descobrir conteúdo que, de outra forma, teriam dificuldade em encontrar.</p>
+    <p>As inovações que o projeto apresenta são diversas: a plataforma permite que os usuários selecionem seus gêneros favoritos, garantindo que as recomendações combine com os gostos individuais; o projeto cria comunidades que compartilham dos mesmo interesses, tendo em vista que ele encoraja os usuários a ouvir sugestões de pessoas com mentes similares; a plataforma evita a fadiga de tomada de decisão; e, por fim, o website oferece uma ampla gama de conteúdo além das escolhas convencionais, promovendo a exploração cultural e a diversidade.</p>
+    <p>Destarte, o projeto tem o potencial de simplificar o processo de descoberta de entretenimento, garantir a satisfação do usuário e contribuir com a maneira em que as pessoas interagem com a mídia cinematográfica.</p>
+    </div>
+<style>
+    /* ----------- Inicio do footer ---------- */
+
+.footernav ul li a:hover {
+color: #d53d0c;
+padding-left: 1px;
+}
+
+.footernav ul {
+list-style: none;
+display: flex;
+padding-top: 20px;
+padding-bottom: 10px;
+justify-content: center;
+}
+
+.footernav ul li a {
+color: white;
+margin: 15px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/*--------- Responsividade ---------*/
+
+@media(max-width: 820px) {
+.footerContainer {
+width: 100%;
+}
+
+.footernav ul {
+flex-direction: column;
+}
+
+.footernav ul li {
+width: 100%;
+text-align: center;
+margin: 5px;
+}
+}
+
+/* ----------- Fim do footer ---------- */
+</style>
+
+<footer>
+
+  <div class="footernav">
+    <ul>
+      <li><a href=""> Sobre</a></li>
+      <li><a href="../footer/premium.html">Premium</a></li>
+      <li><a href="../footer/termos.html">Termo de privacidade</a></li>
+      <li><a href="../footer/ajuda.html">Ajuda</a></li>
+    </ul>
+  </div>
+</footer>
+    
+</body>
+</html>
